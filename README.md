@@ -16,23 +16,35 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 
 ## 📚 Latest Papers
 
-### Vision Language Models
+### Large Multi-Modal Models (LMMs)
 
-<!-- #### Large Language Models (LLMs)
-- **GPT-4 Turbo** - OpenAI's latest language model
-  - [Paper Link](https://arxiv.org/abs/2303.08774)
-  - Key Innovation: Longer context window, enhanced reasoning capabilities
-  - Release Date: March 2024
+#### Vision Language Models (VLA)
+- **Pi0** - Physical Intelligence's VLA
+  - [Paper Link](https://arxiv.org/abs/2501.09747)
+  - [Code](https://github.com/Physical-Intelligence/openpi?tab=readme-ov-file)
+  
 
-- **Claude 3** - Anthropic's advanced constitutional AI
-  - [Paper Link](link-to-paper)
-  - Key Innovation: Constitutional training, improved safety and helpfulness
-  - Release Date: March 2024
+- **RDT** - VLA for Bimanual Manipulation
+  - [Paper Link](https://arxiv.org/abs/2410.07864)
+  - [Code](https://github.com/thu-ml/RoboticsDiffusionTransformer)
 
-- **Gemini 1.5** - Google's multimodal large language model
-  - [Paper Link](link-to-paper)
-  - Key Innovation: Extended context length up to 1M tokens
-  - Release Date: February 2024 -->
+
+- **UniVLA**
+  - [Paper Link](https://arxiv.org/abs/2505.06111)
+  - [Code](https://github.com/OpenDriveLab/UniVLA)
+
+- **UniVLA** 
+  - [Paper Link](https://arxiv.org/abs/2505.06111)
+  - [Code](https://github.com/OpenDriveLab/UniVLA)
+
+- **WorldVLA** 
+  - [Paper Link](https://arxiv.org/abs/2506.21539)
+  - [Code](https://github.com/alibaba-damo-academy/WorldVLA)
+
+- **BridgeVLA** 
+  - [Paper Link](https://arxiv.org/abs/2506.07961)
+  - [Code](https://github.com/BridgeVLA/BridgeVLA)
+
 
 
 ### Large Language Models
