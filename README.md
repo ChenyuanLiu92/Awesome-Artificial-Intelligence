@@ -19,27 +19,23 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 ### Large Multi-Modal Models (LMMs)
 
 #### 🦾 Vision Language Models (VLA)
-- **Pi0** - Physical Intelligence's VLA
-  - [Paper Link](https://arxiv.org/abs/2501.09747)
+- **π0: A Vision-Language-Action Flow Model for General Robot Control** - Physical Intelligence's VLA
+  - [Paper Link](https://www.physicalintelligence.company/download/pi0.pdf)
   - [Code](https://github.com/Physical-Intelligence/openpi?tab=readme-ov-file)
 
-- **RDT** - VLA for Bimanual Manipulation
+- **RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation** - VLA for Bimanual Manipulation
   - [Paper Link](https://arxiv.org/abs/2410.07864)
   - [Code](https://github.com/thu-ml/RoboticsDiffusionTransformer)
 
-- **UniVLA**
+- **UniVLA: Learning to Act Anywhere with Task-centric Latent Actions**
   - [Paper Link](https://arxiv.org/abs/2505.06111)
   - [Code](https://github.com/OpenDriveLab/UniVLA)
 
-- **UniVLA** 
-  - [Paper Link](https://arxiv.org/abs/2505.06111)
-  - [Code](https://github.com/OpenDriveLab/UniVLA)
-
-- **WorldVLA** 
+- **WorldVLA: Towards Autoregressive Action World Model** 
   - [Paper Link](https://arxiv.org/abs/2506.21539)
   - [Code](https://github.com/alibaba-damo-academy/WorldVLA)
 
-- **BridgeVLA** 
+- **BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models** 
   - [Paper Link](https://arxiv.org/abs/2506.07961)
   - [Code](https://github.com/BridgeVLA/BridgeVLA)
 
