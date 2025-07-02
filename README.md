@@ -8,16 +8,15 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 
 ## 📖 Table of Contents
 
-- [Latest Papers](#latest-papers)
-- [Datasets](#datasets)
-- [Blogs & News](#blogs--news)
-- [Open Source Projects](#open-source-projects)
-- [Research Trends](#research-trends)
-- [How to Contribute](#how-to-contribute)
+- [Latest Papers](#-latest-papers)
+- [Blogs & News](#-blogs--news)
+- [Open Source Projects](#-open-source-projects)
+- [Research Trends](#-research-trends)
+- [How to Contribute](#-how-to-contribute)
 
 ## 📚 Latest Papers
 
-### 2025 Breakthrough Papers
+### Vision Language Models
 
 <!-- #### Large Language Models (LLMs)
 - **GPT-4 Turbo** - OpenAI's latest language model
@@ -36,7 +35,7 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
   - Release Date: February 2024 -->
 
 
-### By Research Area
+### Large Language Models
 
 <!-- #### 🧠 Deep Learning Fundamentals
 - **Mamba: Linear-Time Sequence Modeling** - Efficient alternative to Transformers
@@ -73,19 +72,6 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 
 #### May 2024
 - Coming soon...
-
-##  Datasets
-
-### Classic Datasets
-<!-- - **ImageNet** - Large-scale visual recognition dataset
-- **COCO** - Object detection and segmentation dataset
-- **GLUE** - Natural language understanding benchmark
-- **Common Crawl** - Large-scale web text data
-
-### Latest Datasets
-- **LAION-5B** - Large-scale image-text paired dataset
-- **The Pile** - Large-scale text dataset
-- **Open Images** - Google's open-source image dataset -->
 
 ## 📰 Blogs & News
 
