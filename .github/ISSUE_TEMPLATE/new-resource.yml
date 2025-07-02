@@ -1,0 +1,104 @@
+name: ✨ Add New Research Paper
+description: Suggest adding a new machine learning research paper
+title: "[PAPER] "
+labels: ["enhancement", "new-paper"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing a new research paper to the Awesome Machine Learning Papers project! Please fill out the following information to help us evaluate your suggestion.
+
+  - type: dropdown
+    id: paper-type
+    attributes:
+      label: Paper Type
+      description: What type of research paper would you like to add?
+      options:
+        - Conference Paper
+        - Journal Paper
+        - arXiv Preprint
+        - Workshop Paper
+        - Technical Report
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: paper-title
+    attributes:
+      label: Paper Title
+      description: Please provide the complete title of the paper
+      placeholder: e.g., "Attention Is All You Need"
+    validations:
+      required: true
+
+  - type: input
+    id: paper-url
+    attributes:
+      label: Paper Link
+      description: Please provide the link to the paper (arXiv, conference, journal)
+      placeholder: https://arxiv.org/abs/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: paper-authors
+    attributes:
+      label: Authors and Affiliations
+      description: List the main authors and their affiliations
+      placeholder: Author Name (Institution), Author Name (Institution)...
+    validations:
+      required: true
+
+  - type: textarea
+    id: key-innovation
+    attributes:
+      label: Key Innovation
+      description: What are the main contributions and novel aspects of this paper?
+      placeholder: Describe the breakthrough, novel methodology, or significant improvements...
+    validations:
+      required: true
+
+  - type: input
+    id: venue-date
+    attributes:
+      label: Venue and Date
+      description: Conference/Journal name and publication date
+      placeholder: e.g., NeurIPS 2023, December 2023
+
+  - type: input
+    id: implementation-url
+    attributes:
+      label: Implementation Link (Optional)
+      description: Link to official or unofficial implementation if available
+      placeholder: https://github.com/...
+
+  - type: dropdown
+    id: research-area
+    attributes:
+      label: Research Area
+      description: Which research area does this paper best fit under?
+      options:
+        - Large Language Models
+        - Computer Vision
+        - Multimodal Learning
+        - Reinforcement Learning
+        - AI Agents & Reasoning
+        - Deep Learning Fundamentals
+        - AI for Science
+        - Other
+
+  - type: checkboxes
+    id: quality-check
+    attributes:
+      label: Quality Check
+      description: Please confirm the following items
+      options:
+        - label: This is a high-impact research paper with significant contributions
+          required: true
+        - label: The paper link is valid and accessible
+          required: true
+        - label: I have checked that this paper is not already listed
+          required: true
+        - label: This paper represents a meaningful advance in machine learning research
+          required: true

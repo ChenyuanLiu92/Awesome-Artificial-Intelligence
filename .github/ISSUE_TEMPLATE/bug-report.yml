@@ -1,0 +1,54 @@
+name: 🐛 Bug Report
+description: Report issues or errors in the project
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve this project! Please describe the issue you encountered in detail.
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Type
+      description: What type of issue did you encounter?
+      options:
+        - Broken link
+        - Incorrect information
+        - Format issue
+        - Duplicate content
+        - Categorization error
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem-description
+    attributes:
+      label: Problem Description
+      description: Please describe the issue you found in detail
+      placeholder: Clearly describe the specific situation of the problem...
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Problem Location
+      description: In which section of the README does the problem appear?
+      placeholder: e.g., Latest Papers > Large Language Models > GPT-4 Turbo
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Correct Situation
+      description: Describe what you think the correct situation should be
+      placeholder: It should be...
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any other information that would help solve the problem
+      placeholder: Other relevant information...
