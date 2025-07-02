@@ -4,7 +4,7 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ChenyuanLiu92/awesome-machine-learning/issues)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A curated list of cutting-edge machine learning papers, focusing on the latest research breakthroughs, datasets, and trends in artificial intelligence.
+A curated list of cutting-edge machine learning papers, focusing on the latest research, open-source project, and trends in artificial intelligence.
 
 ## 📖 Table of Contents
 
@@ -18,16 +18,14 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 
 ### Large Multi-Modal Models (LMMs)
 
-#### Vision Language Models (VLA)
+#### 🦾 Vision Language Models (VLA)
 - **Pi0** - Physical Intelligence's VLA
   - [Paper Link](https://arxiv.org/abs/2501.09747)
   - [Code](https://github.com/Physical-Intelligence/openpi?tab=readme-ov-file)
-  
 
 - **RDT** - VLA for Bimanual Manipulation
   - [Paper Link](https://arxiv.org/abs/2410.07864)
   - [Code](https://github.com/thu-ml/RoboticsDiffusionTransformer)
-
 
 - **UniVLA**
   - [Paper Link](https://arxiv.org/abs/2505.06111)
