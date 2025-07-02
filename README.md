@@ -130,16 +130,16 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 - **Continual Learning** - Learning without forgetting previous knowledge
 - **Federated Learning** - Training models across distributed data sources -->
 
-## 📅 Update Log
+## 📅 Todo
 
+- [ ] Advance in LLMs Area
+- [ ] Advance in Computer Vision / Object Detection Area
+- [ ] Advance in Generative AI / Diffusion
 <!-- ### July 2024
 - Initialized project structure
 - Added 2024 important papers
 - Updated mainstream framework information -->
 
-### Todo
-- [ ] Object Detection Area
-- [ ] LLM
 <!-- - [ ] Add more 2024 breakthrough papers
 - [ ] Create monthly paper summaries
 - [ ] Add paper implementation links
