@@ -182,7 +182,7 @@ If you find this project helpful, please give us a ⭐️!
 
 ---
 
-**Last Updated**: July 2, 2025
+**Last Updated**: June 02, 2025
 
 **Maintainer**: [David Liu](https://github.com/ChenyuanLiu92)
 
