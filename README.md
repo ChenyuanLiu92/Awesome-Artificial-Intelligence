@@ -167,7 +167,7 @@ We welcome any form of contribution! Please follow these steps:
 If you have any questions or suggestions, please reach out through:
 
 - Create an [Issue](https://github.com/ChenyuanLiu92/awesome-machine-learning/issues)
-- Send email to: your-email@example.com
+- Send email to: liuchenyuan23@mails.ucas.edu.cn
 - Discuss in [Discussions](https://github.com/ChenyuanLiu92/awesome-machine-learning/discussions)
 
 ## 📄 License
