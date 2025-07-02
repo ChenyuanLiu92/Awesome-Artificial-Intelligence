@@ -9,7 +9,7 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 ## 📖 Table of Contents
 
 - [Latest Papers](#-latest-papers)
-- [Blogs & News](#-blogs--news)
+- [Blogs & News](#-news)
 - [Open Source Projects](#-open-source-projects)
 - [Research Trends](#-research-trends)
 - [How to Contribute](#-how-to-contribute)
@@ -18,7 +18,7 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 
 ### Large Multi-Modal Models (LMMs)
 
-#### 🦾 Vision Language Models (VLA)
+#### Vision Language Models (VLA)
 - **π0: A Vision-Language-Action Flow Model for General Robot Control** - Physical Intelligence's VLA
   - [Paper Link](https://www.physicalintelligence.company/download/pi0.pdf)
   - [Code](https://github.com/Physical-Intelligence/openpi?tab=readme-ov-file)
@@ -41,7 +41,14 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 
 
 
-### Large Language Models
+### 🧠 Large Language Models
+- Coming soon...
+
+
+### 👁️ Computer Vision
+
+#### Object Detection
+- Coming soon..
 
 <!-- #### 🧠 Deep Learning Fundamentals
 - **Mamba: Linear-Time Sequence Modeling** - Efficient alternative to Transformers
@@ -79,9 +86,12 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 #### May 2024
 - Coming soon...
 
-## 📰 Blogs & News
+## 📰 News
 
-### Technical Blogs
+### News
+- **Title** 
+  - [Source Link](https://github.com/BridgeVLA/BridgeVLA)
+  - Description
 <!-- - **Distill.pub** - Machine learning visualization and explanation
 - **OpenAI Blog** - OpenAI official blog
 - **Google AI Blog** - Google AI research updates
@@ -128,6 +138,8 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 - Updated mainstream framework information -->
 
 ### Todo
+- [ ] Object Detection Area
+- [ ] LLM
 <!-- - [ ] Add more 2024 breakthrough papers
 - [ ] Create monthly paper summaries
 - [ ] Add paper implementation links
