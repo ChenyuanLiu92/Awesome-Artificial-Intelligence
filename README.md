@@ -44,7 +44,7 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 
 #### Visual Segmentation
 
-- **Paper Title** &#160;&#160;[[Paper]](https://arxiv.org/abs/2304.02643) &#160;&#160; [[Code]](https://github.com/facebookresearch/segment-anything)
+- **Segment Anything** &#160;&#160;[[Paper]](https://arxiv.org/abs/2304.02643) &#160;&#160; [[Code]](https://github.com/facebookresearch/segment-anything)
 - **SAM 2: Segment Anything in Images and Videos** *(August 2024) &#160;&#160;[[Paper]](https://arxiv.org/abs/2408.00714) &#160; [[Code]](https://github.com/facebookresearch/sam2)
 
 
