@@ -122,15 +122,14 @@ This repository includes helpful automation scripts in the [`scripts/`](scripts/
 
 **Quick workflow for adding papers:**
 ```bash
-# 1. Set up full automation (one-time)
+# 1. Set up full automation (one-time, run from anywhere)
 ./scripts/install_hook.sh
 
-# 2. Add papers to README.md manually, and please follow the format below
+# 2. Add papers to README.md manually, following this format:
 - **Paper Title** &#160;&#160;[[Paper]](Paper Link) &#160;&#160; [[Code]](Code Link)
 
-# 3. commit and push
+# 3. Commit and push - everything else is automatic!
 git add . && git commit -m "Add new papers" && git push
-# Everything else is automatic!
 ```
 
 See [`scripts/README.md`](scripts/README.md) for detailed usage instructions.

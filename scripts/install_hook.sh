@@ -5,18 +5,25 @@
 
 echo "🔧 Setting up enhanced git hook with arXiv date automation..."
 
-# Check if we're in the scripts directory
-if [ ! -d "../.git" ]; then
-    echo "❌ Error: Please run this script from the scripts directory"
-    echo "Current working directory should be: /path/to/repo/scripts/"
+# Detect the correct repository root directory
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(dirname "$SCRIPT_DIR")"
+
+# Check if we can find the .git directory
+if [ ! -d "$REPO_ROOT/.git" ]; then
+    echo "❌ Error: Cannot find git repository"
+    echo "Script location: $SCRIPT_DIR"
+    echo "Looking for .git in: $REPO_ROOT"
     exit 1
 fi
 
+echo "📂 Repository found at: $REPO_ROOT"
+
 # Create hooks directory if it doesn't exist
-mkdir -p ../.git/hooks
+mkdir -p "$REPO_ROOT/.git/hooks"
 
 # Create the enhanced pre-push hook
-cat > ../.git/hooks/pre-push << 'EOF'
+cat > "$REPO_ROOT/.git/hooks/pre-push" << 'EOF'
 #!/bin/bash
 
 # Enhanced pre-push hook to:
@@ -100,7 +107,7 @@ exit 0
 EOF
 
 # Make the hook executable
-chmod +x ../.git/hooks/pre-push
+chmod +x "$REPO_ROOT/.git/hooks/pre-push"
 
 echo "✅ Enhanced git hook installed successfully!"
 echo ""
@@ -114,7 +121,7 @@ echo "   - Automatically before every 'git push'"
 echo "   - Ensures your README is always up-to-date and well-organized"
 echo ""
 echo "🧪 Test the hook:"
-echo "   cd .. && ./scripts/test_hook.sh"
+echo "   $SCRIPT_DIR/test_hook.sh"
 echo ""
 echo "🚀 Usage:"
 echo "   Just use 'git push' as normal - full automation will run!"
