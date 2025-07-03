@@ -19,15 +19,15 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 ### 🌍 Large Multi-Modal Models (LMMs)
 
 #### Vision Language Models (VLA)
-- **π0: A Vision-Language-Action Flow Model for General Robot Control**  &#160;&#160; [[Paper]](https://www.physicalintelligence.company/download/pi0.pdf) &#160;&#160;  [[Code]](https://github.com/Physical-Intelligence/openpi?tab=readme-ov-file)
+- **π0: A Vision-Language-Action Flow Model for General Robot Control**  &#160;&#160; [[Paper]](https://www.physicalintelligence.company/download/pi0.pdf) &#160;  [[Code]](https://github.com/Physical-Intelligence/openpi?tab=readme-ov-file)
 
-- **RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation**  &#160;&#160; [[Paper]](https://arxiv.org/abs/2410.07864) &#160;&#160; [[Code]](https://github.com/thu-ml/RoboticsDiffusionTransformer)
+- **RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation**  &#160;&#160; [[Paper]](https://arxiv.org/abs/2410.07864) &#160; [[Code]](https://github.com/thu-ml/RoboticsDiffusionTransformer)
 
-- **UniVLA: Learning to Act Anywhere with Task-centric Latent Actions** &#160;&#160;[[Paper]](https://arxiv.org/abs/2505.06111) &#160;&#160; [[Code]](https://github.com/OpenDriveLab/UniVLA)
+- **UniVLA: Learning to Act Anywhere with Task-centric Latent Actions** &#160;&#160;[[Paper]](https://arxiv.org/abs/2505.06111) &#160; [[Code]](https://github.com/OpenDriveLab/UniVLA)
 
-- **WorldVLA: Towards Autoregressive Action World Model** &#160;&#160;[[Paper]](https://arxiv.org/abs/2506.21539) &#160;&#160; [[Code]](https://github.com/alibaba-damo-academy/WorldVLA)
+- **WorldVLA: Towards Autoregressive Action World Model** &#160;&#160;[[Paper]](https://arxiv.org/abs/2506.21539) &#160; [[Code]](https://github.com/alibaba-damo-academy/WorldVLA)
 
-- **BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models** &#160;&#160;[[Paper]](https://arxiv.org/abs/2506.07961) &#160;&#160; [[Code]](https://github.com/BridgeVLA/BridgeVLA)
+- **BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models** &#160;&#160;[[Paper]](https://arxiv.org/abs/2506.07961) &#160; [[Code]](https://github.com/BridgeVLA/BridgeVLA)
 
 <!-- - **** &#160;&#160;[[Paper]]() &#160;&#160; [[Code]]() -->
 
@@ -41,10 +41,10 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 
 #### Object Detection
 
-- **Detect Anything 3D in the Wild** &#160;&#160;[[Paper]](https://arxiv.org/abs/2504.07958) &#160;&#160; [[Code]](https://github.com/OpenDriveLab/DetAny3D)
+- **Detect Anything 3D in the Wild** &#160;&#160;[[Paper]](https://arxiv.org/abs/2504.07958) &#160; [[Code]](https://github.com/OpenDriveLab/DetAny3D)
 
 #### Visual Segmentation
-- **SAM 2: Segment Anything in Images and Videos** &#160;&#160;[[Paper]](https://arxiv.org/abs/2408.00714) &#160;&#160; [[Code]](https://github.com/facebookresearch/sam2)
+- **SAM 2: Segment Anything in Images and Videos** &#160;&#160;[[Paper]](https://arxiv.org/abs/2408.00714) &#160; [[Code]](https://github.com/facebookresearch/sam2)
 
 
 ### 🔍 Natural Language Processing
