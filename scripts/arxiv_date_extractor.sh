@@ -13,9 +13,17 @@ get_arxiv_date() {
     # Extract date from arXiv ID format
     # Format: YYMM.NNNNN (old) or YYYY.MM.NNNNN (new since 2007)
     if [[ $arxiv_id =~ ^([0-9]{4})\.([0-9]{2}) ]]; then
-        # New format (2007+): YYYY.MM
+        # New format (2007+): YYYY.MM - but wait, this could be YYMM too!
         year="${BASH_REMATCH[1]}"
         month="${BASH_REMATCH[2]}"
+        
+        # If year is like 2304, it's actually 23(year) 04(month)
+        if [ "$year" -gt 2099 ]; then
+            # This is YYMM format: 2304 = 23(year) + 04(month)
+            year_month="$year"
+            year="20${year_month:0:2}"
+            month="${year_month:2:2}"
+        fi
     elif [[ $arxiv_id =~ ^([0-9]{2})([0-9]{2}) ]]; then
         # Old format: YYMM
         year_short="${BASH_REMATCH[1]}"

@@ -5,11 +5,15 @@
 
 echo "🔍 Updating arXiv dates and sorting papers by date..."
 
+# Detect the correct repository root directory
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(dirname "$SCRIPT_DIR")"
+
 # Backup original file
-cp ../README.md ../README.md.backup
+cp "$REPO_ROOT/README.md" "$REPO_ROOT/README.md.backup"
 
 # Check if arxiv_date_extractor.sh exists
-if [ -f "./arxiv_date_extractor.sh" ]; then
+if [ -f "$SCRIPT_DIR/arxiv_date_extractor.sh" ]; then
     echo "📂 Found arXiv date extractor, using it for enhanced date extraction..."
 else
     echo "⚠️  arXiv date extractor not found, using basic date extraction..."
@@ -89,9 +93,14 @@ extract_sort_key() {
 }
 
 # Process the file
-python3 - << 'EOF'
+export REPO_ROOT="$REPO_ROOT"
+python3 - << EOF
 import re
 import sys
+import os
+
+# Get repository root from environment
+repo_root = os.environ.get('REPO_ROOT', '..')
 
 def extract_sort_key(line):
     """Extract sort key from date in line"""
@@ -114,7 +123,17 @@ def extract_and_format_date(url):
         return None, None
     
     arxiv_id = arxiv_match.group(1)
-    year, month = arxiv_id.split('.')[:2]
+    id_parts = arxiv_id.split('.')
+    year_month = id_parts[0]
+    
+    # Handle YYMM format (like 2304 = 2023 April)
+    if len(year_month) == 4 and int(year_month) > 2099:
+        year = "20" + year_month[:2]
+        month = year_month[2:]
+    else:
+        # Handle YYYY or other formats
+        year = year_month
+        month = id_parts[1] if len(id_parts) > 1 else '01'
     
     month_names = {
         '01': 'January', '02': 'February', '03': 'March', '04': 'April',
@@ -124,7 +143,7 @@ def extract_and_format_date(url):
     
     month_name = month_names.get(month, 'Unknown')
     formatted_date = f"{month_name} {year}"
-    sort_key = f"{year}{month}"
+    sort_key = f"{year}{month.zfill(2)}"
     
     return formatted_date, sort_key
 
@@ -179,7 +198,7 @@ def process_section(lines, start_idx, end_idx):
     return papers
 
 # Read the file
-with open('../README.md', 'r', encoding='utf-8') as f:
+with open(f'{repo_root}/README.md', 'r', encoding='utf-8') as f:
     lines = f.readlines()
 
 # Find sections to process
@@ -220,7 +239,7 @@ while i < len(lines):
     i += 1
 
 # Write the result
-with open('../README.md', 'w', encoding='utf-8') as f:
+with open(f'{repo_root}/README.md', 'w', encoding='utf-8') as f:
     f.writelines(result_lines)
 
 print("✅ Papers updated and sorted by date successfully!")
