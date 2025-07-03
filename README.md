@@ -43,6 +43,8 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 - **Detect Anything 3D in the Wild** *(April 2025) &#160;&#160;[[Paper]](https://arxiv.org/abs/2504.07958) &#160; [[Code]](https://github.com/OpenDriveLab/DetAny3D)
 
 #### Visual Segmentation
+
+- **Paper Title** &#160;&#160;[[Paper]](https://arxiv.org/abs/2304.02643) &#160;&#160; [[Code]](https://github.com/facebookresearch/segment-anything)
 - **SAM 2: Segment Anything in Images and Videos** *(August 2024) &#160;&#160;[[Paper]](https://arxiv.org/abs/2408.00714) &#160; [[Code]](https://github.com/facebookresearch/sam2)
 
 
@@ -122,7 +124,10 @@ This repository includes helpful automation scripts in the [`scripts/`](scripts/
 # 1. Set up full automation (one-time)
 ./scripts/install_hook.sh
 
-# 2. Add papers to README.md manually, then commit and push
+# 2. Add papers to README.md manually, and please follow the format below
+- **Paper Title** &#160;&#160;[[Paper]](Paper Link) &#160;&#160; [[Code]](Code Link)
+
+# 3. commit and push
 git add . && git commit -m "Add new papers" && git push
 # Everything else is automatic!
 ```
