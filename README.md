@@ -126,8 +126,10 @@ This repository includes helpful automation scripts in the [`scripts/`](scripts/
 # 2. Add papers to README.md manually, following this format:
 - **Paper Title** &#160;&#160;[[Paper]](Paper Link) &#160;&#160; [[Code]](Code Link)
 
-# 3. Commit and push - everything else is automatic!
+# 3. Commit and push - FULL automation!
 git add . && git commit -m "Add new papers" && git push
+# Pre-commit: Extracts dates and sorts papers automatically
+# Pre-push: Updates "Last Updated" date automatically
 ```
 
 See [`scripts/README.md`](scripts/README.md) for detailed usage instructions.

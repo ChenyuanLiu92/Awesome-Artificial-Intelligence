@@ -39,7 +39,7 @@ Automatically updates all arXiv paper dates in README.md and sorts papers by pub
 ### 🔄 Git Automation
 
 #### `install_hook.sh`
-Installs an enhanced git pre-push hook that automatically manages paper dates and README updates.
+Installs enhanced git hooks (pre-commit + pre-push) that automatically manage paper dates and README updates.
 
 **Usage:**
 ```bash
@@ -47,10 +47,9 @@ Installs an enhanced git pre-push hook that automatically manages paper dates an
 ```
 
 **What it does:**
-- 📅 Extracts dates from arXiv papers and sorts them by publication date
-- 🕒 Updates the "Last Updated" field before each push
-- 📝 Commits any changes automatically
-- ⚡ Full automation - no manual steps needed!
+- � **Pre-commit hook**: Extracts dates from arXiv papers and sorts them when README.md is committed
+- � **Pre-push hook**: Updates the "Last Updated" field before each push
+- ⚡ **Full automation**: No manual steps needed after setup!
 
 #### `test_hook.sh`
 Tests the git hook functionality locally without actually pushing to remote.
@@ -67,9 +66,9 @@ Tests the git hook functionality locally without actually pushing to remote.
 ./scripts/install_hook.sh
 ```
 **This will automatically:**
-- Extract dates from arXiv papers and sort them
-- Update "Last Updated" date
-- Handle everything on each `git push`
+- Extract dates from arXiv papers and sort them on each commit
+- Update "Last Updated" date on each push
+- Handle everything automatically with git hooks
 
 ### Manual Workflow (Alternative)
 1. **Add new papers to README.md manually**
