@@ -16,66 +16,49 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 
 ## 📚 Latest Papers
 
-### Large Multi-Modal Models (LMMs)
+### 🌍 Large Multi-Modal Models (LMMs)
 
 #### Vision Language Models (VLA)
 - **π0: A Vision-Language-Action Flow Model for General Robot Control** - Physical Intelligence's VLA
-  - [Paper Link](https://www.physicalintelligence.company/download/pi0.pdf)
-  - [Code](https://github.com/Physical-Intelligence/openpi?tab=readme-ov-file)
+  - [[Paper Link]](https://www.physicalintelligence.company/download/pi0.pdf) &#160;&#160;  [[Code]](https://github.com/Physical-Intelligence/openpi?tab=readme-ov-file)
 
 - **RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation** - VLA for Bimanual Manipulation
-  - [Paper Link](https://arxiv.org/abs/2410.07864)
-  - [Code](https://github.com/thu-ml/RoboticsDiffusionTransformer)
+  - [[Paper Link]](https://arxiv.org/abs/2410.07864) &#160;&#160; [[Code]](https://github.com/thu-ml/RoboticsDiffusionTransformer)
 
 - **UniVLA: Learning to Act Anywhere with Task-centric Latent Actions**
-  - [Paper Link](https://arxiv.org/abs/2505.06111)
-  - [Code](https://github.com/OpenDriveLab/UniVLA)
+  - [[Paper Link]](https://arxiv.org/abs/2505.06111) &#160;&#160; [[Code]](https://github.com/OpenDriveLab/UniVLA)
 
 - **WorldVLA: Towards Autoregressive Action World Model** 
-  - [Paper Link](https://arxiv.org/abs/2506.21539)
-  - [Code](https://github.com/alibaba-damo-academy/WorldVLA)
+  - [[Paper Link]](https://arxiv.org/abs/2506.21539) &#160;&#160; [[Code]](https://github.com/alibaba-damo-academy/WorldVLA)
 
 - **BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models** 
-  - [Paper Link](https://arxiv.org/abs/2506.07961)
-  - [Code](https://github.com/BridgeVLA/BridgeVLA)
+  - [[Paper Link]](https://arxiv.org/abs/2506.07961) &#160;&#160; [[Code]](https://github.com/BridgeVLA/BridgeVLA)
 
 
 
-### 🧠 Large Language Models
+### 💬 Large Language Models
 - Coming soon...
 
 
-### 👁️ Computer Vision
+### 👀 Computer Vision
 
 #### Object Detection
-- Coming soon..
 
-<!-- #### 🧠 Deep Learning Fundamentals
-- **Mamba: Linear-Time Sequence Modeling** - Efficient alternative to Transformers
-- **Mixture of Experts (MoE) Improvements** - Scaling model capacity efficiently
-- **RetNet: Retentive Networks** - Alternative architecture to Transformers
+- **Detect Anything 3D in the Wild** 
+  - [[Paper Link]](https://arxiv.org/abs/2504.07958) &#160;&#160; [[Code]](https://github.com/OpenDriveLab/DetAny3D)
 
-#### 🔍 Natural Language Processing
-- **In-Context Learning** - Few-shot learning without parameter updates
-- **Constitutional AI** - Training AI systems to be helpful, harmless, and honest
-- **Tool Use in LLMs** - Teaching language models to use external tools
+  <!-- - [[Paper Link]]() &#160;&#160; [[Code]]() -->
 
-#### 👁️ Computer Vision
-- **Diffusion Models** - State-of-the-art generative models
-- **Vision Transformers (ViTs)** - Transformer architectures for computer vision
-- **Neural Radiance Fields (NeRF)** - 3D scene representation and rendering
 
-#### 🤝 Reinforcement Learning
-- **RLHF (Reinforcement Learning from Human Feedback)** - Aligning AI with human preferences
-- **Multi-Agent Reinforcement Learning** - Coordination in multi-agent environments
-- **Offline Reinforcement Learning** - Learning from static datasets
 
-#### 🧬 AI for Science
-- **AlphaFold 3** - Protein structure prediction
-- **Materials Discovery** - AI-driven materials science
-- **Drug Discovery** - AI applications in pharmaceutical research -->
 
-### Monthly Paper Highlights
+### 🔍 Natural Language Processing
+- Coming soon...
+
+### 🧬 AI for Science
+- Coming soon...
+
+### 📰 Monthly Paper Highlights
 
 #### July 2025
 - Coming soon...
@@ -89,18 +72,10 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 ## 📰 News
 
 ### News
-- **Title** 
+- Coming soon...
+<!-- - **Title** 
   - [Source Link](https://github.com/BridgeVLA/BridgeVLA)
-  - Description
-<!-- - **Distill.pub** - Machine learning visualization and explanation
-- **OpenAI Blog** - OpenAI official blog
-- **Google AI Blog** - Google AI research updates
-- **The Gradient** - AI research and insights
-
-### News Sources
-- **AI News** - Artificial intelligence news aggregation
-- **VentureBeat AI** - AI business news
-- **MIT Technology Review** - Technology reviews -->
+  - Description -->
 
 ## 🚀 Open Source Projects
 
@@ -132,19 +107,9 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 
 ## 📅 Todo
 
-- [ ] Advance in LLMs Area
-- [ ] Advance in Computer Vision / Object Detection Area
-- [ ] Advance in Generative AI / Diffusion
-<!-- ### July 2024
-- Initialized project structure
-- Added 2024 important papers
-- Updated mainstream framework information -->
-
-<!-- - [ ] Add more 2024 breakthrough papers
-- [ ] Create monthly paper summaries
-- [ ] Add paper implementation links
-- [ ] Include paper review summaries
-- [ ] Add author and institution information -->
+- [ ✅ ] Advance in LLMs Area
+- [ ✅ ] Advance in Computer Vision
+- [ ✅ ] Advance in Generative AI
 
 ## 🤝 How to Contribute
 
@@ -182,7 +147,7 @@ If you find this project helpful, please give us a ⭐️!
 
 ---
 
-**Last Updated**: June 02, 2025
+**Last Updated**: July 02, 2025
 
 **Maintainer**: [David Liu](https://github.com/ChenyuanLiu92)
 
