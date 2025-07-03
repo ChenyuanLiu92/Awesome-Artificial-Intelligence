@@ -176,10 +176,10 @@ def process_section(lines, start_idx, end_idx):
             return extract_sort_key(paper_text)
         
         # Extract arXiv URL and get date
-        arxiv_match = re.search(r'\[Paper\]\(https://arxiv\.org/abs/[^)]+\)', paper_text)
+        arxiv_match = re.search(r'arxiv\.org/abs/(\d{4}\.\d{4,5})', paper_text)
         if arxiv_match:
-            url = arxiv_match.group(0)
-            formatted_date, sort_key = extract_and_format_date(url)
+            arxiv_id = arxiv_match.group(1)
+            formatted_date, sort_key = extract_and_format_date(f"https://arxiv.org/abs/{arxiv_id}")
             if formatted_date:
                 # Add date to paper
                 first_line = paper[0]
