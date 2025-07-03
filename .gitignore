@@ -68,11 +68,7 @@ coverage/
 *.backup
 *.old
 
-# Local automation scripts (not for GitHub)
-install_hook.sh
-test_hook.sh
-setup.sh
-update.sh
-AUTO_UPDATE_GUIDE.md
+# Local test and temporary files
 *.local.sh
-update_*.sh
+temp_*
+test_*

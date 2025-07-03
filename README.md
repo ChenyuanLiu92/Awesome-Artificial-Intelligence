@@ -19,15 +19,15 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 ### 🌍 Large Multi-Modal Models (LMMs)
 
 #### Vision Language Models (VLA)
+- **WorldVLA: Towards Autoregressive Action World Model** *(June 2025) &#160;&#160;[[Paper]](https://arxiv.org/abs/2506.21539) &#160; [[Code]](https://github.com/alibaba-damo-academy/WorldVLA)
+
+- **BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models** *(June 2025) &#160;&#160;[[Paper]](https://arxiv.org/abs/2506.07961) &#160; [[Code]](https://github.com/BridgeVLA/BridgeVLA)
+
+- **UniVLA: Learning to Act Anywhere with Task-centric Latent Actions** *(May 2025) &#160;&#160;[[Paper]](https://arxiv.org/abs/2505.06111) &#160; [[Code]](https://github.com/OpenDriveLab/UniVLA)
+
+- **RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation** *(October 2024)  &#160;&#160; [[Paper]](https://arxiv.org/abs/2410.07864) &#160; [[Code]](https://github.com/thu-ml/RoboticsDiffusionTransformer)
+
 - **π0: A Vision-Language-Action Flow Model for General Robot Control**  &#160;&#160; [[Paper]](https://www.physicalintelligence.company/download/pi0.pdf) &#160;  [[Code]](https://github.com/Physical-Intelligence/openpi?tab=readme-ov-file)
-
-- **RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation**  &#160;&#160; [[Paper]](https://arxiv.org/abs/2410.07864) &#160; [[Code]](https://github.com/thu-ml/RoboticsDiffusionTransformer)
-
-- **UniVLA: Learning to Act Anywhere with Task-centric Latent Actions** &#160;&#160;[[Paper]](https://arxiv.org/abs/2505.06111) &#160; [[Code]](https://github.com/OpenDriveLab/UniVLA)
-
-- **WorldVLA: Towards Autoregressive Action World Model** &#160;&#160;[[Paper]](https://arxiv.org/abs/2506.21539) &#160; [[Code]](https://github.com/alibaba-damo-academy/WorldVLA)
-
-- **BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models** &#160;&#160;[[Paper]](https://arxiv.org/abs/2506.07961) &#160; [[Code]](https://github.com/BridgeVLA/BridgeVLA)
 
 <!-- - **** &#160;&#160;[[Paper]]() &#160;&#160; [[Code]]() -->
 
@@ -40,11 +40,10 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 ### 👀 Computer Vision
 
 #### Object Detection
-
-- **Detect Anything 3D in the Wild** &#160;&#160;[[Paper]](https://arxiv.org/abs/2504.07958) &#160; [[Code]](https://github.com/OpenDriveLab/DetAny3D)
+- **Detect Anything 3D in the Wild** *(April 2025) &#160;&#160;[[Paper]](https://arxiv.org/abs/2504.07958) &#160; [[Code]](https://github.com/OpenDriveLab/DetAny3D)
 
 #### Visual Segmentation
-- **SAM 2: Segment Anything in Images and Videos** &#160;&#160;[[Paper]](https://arxiv.org/abs/2408.00714) &#160; [[Code]](https://github.com/facebookresearch/sam2)
+- **SAM 2: Segment Anything in Images and Videos** *(August 2024) &#160;&#160;[[Paper]](https://arxiv.org/abs/2408.00714) &#160; [[Code]](https://github.com/facebookresearch/sam2)
 
 
 ### 🔍 Natural Language Processing
@@ -56,14 +55,8 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 ### 📰 Monthly Paper Highlights
 
 #### July 2025
-- Coming soon...
-
 #### June 2024
-- Coming soon...
-
 #### May 2024
-- Coming soon...
-
 ## 📰 News
 
 ### News
@@ -116,11 +109,32 @@ We welcome any form of contribution! Please follow these steps:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a **Pull Request**
 
+### 🛠️ Using Automation Tools
+
+This repository includes helpful automation scripts in the [`scripts/`](scripts/) directory:
+
+- **`scripts/update_and_sort_papers.sh`** - Automatically extract dates from arXiv papers and sort by publication date
+- **`scripts/arxiv_date_extractor.sh`** - Extract metadata from individual arXiv papers
+- **`scripts/install_hook.sh`** - Set up git hook for full automation (dates + "Last Updated")
+
+**Quick workflow for adding papers:**
+```bash
+# 1. Set up full automation (one-time)
+./scripts/install_hook.sh
+
+# 2. Add papers to README.md manually, then commit and push
+git add . && git commit -m "Add new papers" && git push
+# Everything else is automatic!
+```
+
+See [`scripts/README.md`](scripts/README.md) for detailed usage instructions.
+
 ### Contribution Guidelines
 - Ensure links are valid and relevant
 - Provide brief but informative descriptions
 - Organize content according to existing format
 - Prioritize quality over quantity
+- Use the automation scripts to maintain consistent formatting
 
 ## 📞 Contact
 
@@ -128,7 +142,7 @@ If you have any questions or suggestions, please reach out through:
 
 - Create an [Issue](https://github.com/ChenyuanLiu92/awesome-machine-learning/issues)
 - Send email to: liuchenyuan23@mails.ucas.edu.cn
-- Discuss in [Discussions](https://github.com/ChenyuanLiu92/awesome-machine-learning/discussions)
+<!-- - Discuss in [Discussions](https://github.com/ChenyuanLiu92/awesome-machine-learning/discussions) -->
 
 ## 📄 License
 
