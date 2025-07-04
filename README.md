@@ -63,8 +63,10 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 #### May 2024
 ## 📰 News
 
-### News
-- Coming soon...
+### Talks
+
+- **Towards End-to-End Generative Modeling** *(June 2025) &#160;&#160; [[Video]](https://www.youtube.com/watch?v=r-fgrZ0Ve74)
+&#160; CVPR 2025  &#160; Kaiming He 
 <!-- - **Title** 
   - [Source Link](https://github.com/BridgeVLA/BridgeVLA)
   - Description -->
