@@ -15,10 +15,12 @@ awesome-machine-learning/
 │   ├── guidelines/                   # Detailed guidelines
 │   ├── examples/                     # Examples and templates
 │   └── assets/                       # Images and resources
-└── scripts/                          # Automation scripts (planned)
-    ├── link-checker.py               # Link checker
-    ├── format-validator.py           # Format validator
-    └── update-checker.py             # Content update checker
+└── scripts/                          # Automation scripts
+    ├── README.md                     # Scripts documentation
+    ├── arxiv_date_extractor.sh       # Extract arXiv paper dates
+    ├── update_and_sort_papers.sh     # Update and sort papers by date
+    ├── install_hook.sh               # Install git hooks for automation
+    └── test_hook.sh                  # Test git hooks locally
 ```
 
 ## File Descriptions
@@ -54,6 +56,12 @@ awesome-machine-learning/
 - **Monthly**: Update latest papers and tools
 - **Quarterly**: Organize research trends, clean outdated content
 - **Annually**: Major structural adjustments and annual summaries
+
+### Automation Tools (Available)
+- **arXiv Date Extractor**: Automatically extracts publication dates from arXiv papers
+- **Paper Sorter**: Sorts papers by publication date within each section
+- **Git Hooks**: Automatically processes papers and updates dates on commit/push
+- **Backup System**: Creates backup files before making changes
 
 ### Automation Tools (Planned Development)
 - Link validity checker
