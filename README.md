@@ -25,6 +25,8 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 
 - **UniVLA: Learning to Act Anywhere with Task-centric Latent Actions** *(May 2025) &#160;&#160;[[Paper]](https://arxiv.org/abs/2505.06111) &#160; [[Code]](https://github.com/OpenDriveLab/UniVLA)
 
+- **OneTwoVLA: A Unified Vision-Language-Action Model with Adaptive Reasoning**  *(May 2025) &#160;&#160;[[Paper]](https://arxiv.org/abs/2505.11917) &#160;&#160; [[Code]](https://github.com/Fanqi-Lin/OneTwoVLA)
+
 - **RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation** *(October 2024)  &#160;&#160; [[Paper]](https://arxiv.org/abs/2410.07864) &#160; [[Code]](https://github.com/thu-ml/RoboticsDiffusionTransformer)
 
 - **π0: A Vision-Language-Action Flow Model for General Robot Control**  &#160;&#160; [[Paper]](https://www.physicalintelligence.company/download/pi0.pdf) &#160;  [[Code]](https://github.com/Physical-Intelligence/openpi?tab=readme-ov-file)
@@ -162,7 +164,7 @@ If you find this project helpful, please give us a ⭐️!
 
 ---
 
-**Last Updated**: July 03, 2025
+**Last Updated**: July 04, 2025
 
 **Maintainer**: [David Liu](https://github.com/ChenyuanLiu92)
 

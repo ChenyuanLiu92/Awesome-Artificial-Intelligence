@@ -6,15 +6,14 @@ awesome-machine-learning/
 ├── CONTRIBUTING.md                     # Contribution guidelines
 ├── CHANGELOG.md                        # Update log
 ├── LICENSE                            # MIT license
+├── PROJECT_STRUCTURE.md               # This file - project structure documentation
+├── .gitignore                         # Git ignore rules
 ├── .github/                           # GitHub configuration files
-│   ├── ISSUE_TEMPLATE/               # Issue templates
-│   │   ├── new-resource.yml          # New resource template
-│   │   └── bug-report.yml            # Bug report template
-│   └── PULL_REQUEST_TEMPLATE.md      # PR template
-├── docs/                             # Documentation directory (planned)
-│   ├── guidelines/                   # Detailed guidelines
-│   ├── examples/                     # Examples and templates
-│   └── assets/                       # Images and resources
+│   └── [GitHub templates]            # Issue/PR templates (if configured)
+├── .git/                             # Git repository data
+│   └── hooks/                        # Git hooks for automation
+│       ├── pre-commit                # Auto-update paper dates before commit
+│       └── pre-push                  # Auto-update "Last Updated" before push
 └── scripts/                          # Automation scripts
     ├── README.md                     # Scripts documentation
     ├── arxiv_date_extractor.sh       # Extract arXiv paper dates
@@ -30,10 +29,34 @@ awesome-machine-learning/
 - **CONTRIBUTING.md**: Detailed contribution guide to help new contributors understand participation
 - **CHANGELOG.md**: Records project version updates and important changes
 - **LICENSE**: MIT open source license
+- **PROJECT_STRUCTURE.md**: Documentation of the project structure and file descriptions
+- **.gitignore**: Specifies files and directories to be ignored by Git
+
+### Automation System
+- **scripts/**: Directory containing all automation scripts
+  - **arxiv_date_extractor.sh**: Extracts publication dates from arXiv URLs
+  - **update_and_sort_papers.sh**: Automatically updates arXiv dates and sorts papers by publication date
+  - **install_hook.sh**: Sets up Git hooks for complete automation
+  - **test_hook.sh**: Tests Git hooks locally before committing
+- **.git/hooks/**: Git hooks for automation
+  - **pre-commit**: Runs before every commit to update paper dates and sort by date
+  - **pre-push**: Runs before every push to update "Last Updated" field
 
 ### GitHub Configuration
-- **Issue Templates**: Standardized problem reporting and resource suggestion formats
-- **PR Template**: Unified Pull Request submission format
+- **.github/**: GitHub-specific configuration files (templates, workflows, etc.)
+
+## Automation Workflow
+
+### Pre-commit Hook
+- Triggers automatically before every `git commit`
+- Runs `scripts/update_and_sort_papers.sh` if README.md is being committed
+- Extracts dates from arXiv URLs and sorts papers by publication date
+- Automatically stages updated README.md to include in the commit
+
+### Pre-push Hook
+- Triggers automatically before every `git push`
+- Updates the "Last Updated" date in README.md to current date
+- Automatically commits the updated date
 
 ## Content Organization Principles
 
