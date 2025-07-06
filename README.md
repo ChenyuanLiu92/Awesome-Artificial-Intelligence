@@ -27,9 +27,13 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 
 - **OneTwoVLA: A Unified Vision-Language-Action Model with Adaptive Reasoning**  *(May 2025) &#160;&#160;[[Paper]](https://arxiv.org/abs/2505.11917) &#160;&#160; [[Code]](https://github.com/Fanqi-Lin/OneTwoVLA)
 
+- **CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models**  *(March 2025) &#160;&#160;[[Paper]](https://arxiv.org/abs/2503.22020) &#160;&#160; [[Code]](https://cot-vla.github.io/)
+
 - **RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation** *(October 2024)  &#160;&#160; [[Paper]](https://arxiv.org/abs/2410.07864) &#160; [[Code]](https://github.com/thu-ml/RoboticsDiffusionTransformer)
 
 - **π0: A Vision-Language-Action Flow Model for General Robot Control**  &#160;&#160; [[Paper]](https://www.physicalintelligence.company/download/pi0.pdf) &#160;  [[Code]](https://github.com/Physical-Intelligence/openpi?tab=readme-ov-file)
+
+
 
 <!-- - **** &#160;&#160;[[Paper]]() &#160;&#160; [[Code]]() -->
 
