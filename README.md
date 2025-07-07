@@ -29,13 +29,13 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 
 - **CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models**  *(March 2025) &#160;&#160;[[Paper]](https://arxiv.org/abs/2503.22020) &#160;&#160; [[Code]](https://cot-vla.github.io/)
 
+- **MoLe-VLA: Dynamic Layer-skipping Vision Language Action Model via Mixture-of-Layers for Efficient Robot Manipulation**  *(March 2025) &#160;&#160;[[Paper]](https://arxiv.org/abs/2503.20384) &#160;&#160; [[Code]](https://github.com/RoyZry98/MoLe-VLA-Pytorch/)
+
+
+
 - **RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation** *(October 2024)  &#160;&#160; [[Paper]](https://arxiv.org/abs/2410.07864) &#160; [[Code]](https://github.com/thu-ml/RoboticsDiffusionTransformer)
 
 - **π0: A Vision-Language-Action Flow Model for General Robot Control**  &#160;&#160; [[Paper]](https://www.physicalintelligence.company/download/pi0.pdf) &#160;  [[Code]](https://github.com/Physical-Intelligence/openpi?tab=readme-ov-file)
-
-
-
-<!-- - **** &#160;&#160;[[Paper]]() &#160;&#160; [[Code]]() -->
 
 
 
@@ -170,7 +170,7 @@ If you find this project helpful, please give us a ⭐️!
 
 ---
 
-**Last Updated**: July 04, 2025
+**Last Updated**: July 06, 2025
 
 **Maintainer**: [David Liu](https://github.com/ChenyuanLiu92)
 
