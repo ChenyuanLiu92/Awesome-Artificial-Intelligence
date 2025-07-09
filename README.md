@@ -42,6 +42,7 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 ### 💬 Large Language Models
 - Coming soon...
 
+
 ### 🎨 Generative AI
 #### Video Generation
 - **Make-A-Video: Text-to-Video Generation without Text-Video Data**   *(September 2022) &#160;&#160; [[Paper]](https://arxiv.org/abs/2209.14792) &#160;  [[Code]](https://github.com/lucidrains/make-a-video-pytorch)
@@ -174,7 +175,7 @@ If you find this project helpful, please give us a ⭐️!
 
 ---
 
-**Last Updated**: July 07, 2025
+**Last Updated**: July 08, 2025
 
 **Maintainer**: [David Liu](https://github.com/ChenyuanLiu92)
 
