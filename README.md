@@ -18,7 +18,10 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 
 ### 🌍 Large Multi-Modal Models (LMMs)
 
-#### Vision Language Models (VLA)
+#### Vision Language Models (VLM)
+- **Visual Instruction Tuning**  *(April 2023) &#160;&#160;[[Paper]](https://arxiv.org/abs/2304.08485) &#160; [[Code]](https://github.com/haotian-liu/LLaVA)
+
+#### Vision Language Action Models (VLA)
 - **WorldVLA: Towards Autoregressive Action World Model** *(June 2025) &#160;&#160;[[Paper]](https://arxiv.org/abs/2506.21539) &#160; [[Code]](https://github.com/alibaba-damo-academy/WorldVLA)
 
 - **BridgeVLA: Input-Output Alignment for Efficient 3D Manipulation Learning with Vision-Language Models** *(June 2025) &#160;&#160;[[Paper]](https://arxiv.org/abs/2506.07961) &#160; [[Code]](https://github.com/BridgeVLA/BridgeVLA)
@@ -36,6 +39,8 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 - **RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation** *(October 2024)  &#160;&#160; [[Paper]](https://arxiv.org/abs/2410.07864) &#160; [[Code]](https://github.com/thu-ml/RoboticsDiffusionTransformer)
 
 - **π0: A Vision-Language-Action Flow Model for General Robot Control**  &#160;&#160; [[Paper]](https://www.physicalintelligence.company/download/pi0.pdf) &#160;  [[Code]](https://github.com/Physical-Intelligence/openpi?tab=readme-ov-file)
+
+
 
 
 
@@ -175,7 +180,7 @@ If you find this project helpful, please give us a ⭐️!
 
 ---
 
-**Last Updated**: July 08, 2025
+**Last Updated**: July 09, 2025
 
 **Maintainer**: [David Liu](https://github.com/ChenyuanLiu92)
 
