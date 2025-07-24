@@ -21,11 +21,7 @@ We especially welcome the following types of contributions:
 
 **Format Requirements**:
 ```markdown
-- **Paper Title** - Brief description
-  - [Paper Link](paper-url) (prefer arXiv or official publication)
-  - Key Innovation: Core contributions and novelty
-  - Release Date: Month YYYY
-  - Authors: [Author names and affiliations]
+- - **Paper Title**   &#160;&#160;[[Paper]](Paper Link) &#160; [[Project]](Project Link) or [[Code]](Code Link)
 ```
 
 #### 📊 Datasets
@@ -42,8 +38,8 @@ We especially welcome the following types of contributions:
 
 1. **Fork Repository**
    ```bash
-   git clone https://github.com/ChenyuanLiu92/awesome-machine-learning.git
-   cd awesome-machine-learning
+   git clone https://github.com/ChenyuanLiu92/artificial-intelligence-learning.git
+   cd awesome-artificial-intelligence
    ```
 
 2. **Create Branch**
@@ -142,8 +138,8 @@ We especially welcome the following types of contributions:
 
 If you encounter any problems during contribution:
 
-1. Check existing [Issues](https://github.com/ChenyuanLiu92/awesome-machine-learning/issues)
-2. Ask questions in [Discussions](https://github.com/ChenyuanLiu92/awesome-machine-learning/discussions)
+1. Check existing [Issues](https://github.com/ChenyuanLiu92/awesome-artificial-intelligence/issues)
+2. Ask questions in [Discussions](https://github.com/ChenyuanLiu92/awesome-artificial-intelligence/discussions)
 3. Create a new Issue for help
 
 ## 🙏 Acknowledgments
