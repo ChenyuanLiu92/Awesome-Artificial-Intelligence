@@ -1,10 +1,10 @@
-# Awesome Machine Learning 🤖
+# Awesome Artificial Intelligence 🤖
 
 [![github](https://img.shields.io/badge/GitHub-Repository-blue.svg)](https://github.com/ChenyuanLiu92/awesome-machine-learning)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ChenyuanLiu92/awesome-machine-learning/issues)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A curated list of cutting-edge machine learning papers, focusing on the latest research, open-source project, and trends in artificial intelligence.
+A curated list of cutting-edge artificial intelligence papers, focusing on the latest research, open-source project, and trends in AI.
 
 ## 📖 Table of Contents
 
@@ -46,8 +46,9 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 - **π0: A Vision-Language-Action Flow Model for General Robot Control**  &#160;&#160; [[Paper]](https://www.physicalintelligence.company/download/pi0.pdf) &#160;  [[Code]](https://github.com/Physical-Intelligence/openpi?tab=readme-ov-file)
 
 ### 💬 Large Language Models
-- Coming soon...
 
+#### Prompt Engineering
+- **A Systematic Survey of Prompt Engineering in Large Language Models: Techniques and Applications**   *(February 2024) &#160;&#160; [[Paper]](https://arxiv.org/abs/2402.07927) &#160;
 
 ### 🎨 Generative AI
 #### Video Generation
@@ -177,11 +178,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you find this project helpful, please give us a ⭐️!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ChenyuanLiu92e/awesome-machine-learning&type=Date)](https://star-history.com/#ChenyuanLiu92/awesome-machine-learning&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=ChenyuanLiu92e/awesome-machine-learning&type=Date)](https://star-history.com/#ChenyuanLiu92/awesome- artificial- intelligence&Date)
 
 ---
 
-**Last Updated**: July 17, 2025
+**Last Updated**: July 24, 2025
 
 **Maintainer**: [David Liu](https://github.com/ChenyuanLiu92)
 
