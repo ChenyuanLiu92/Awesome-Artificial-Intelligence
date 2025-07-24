@@ -178,7 +178,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you find this project helpful, please give us a ⭐️!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ChenyuanLiu92e/awesome-machine-learning&type=Date)](https://star-history.com/#ChenyuanLiu92/awesome- artificial- intelligence&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=ChenyuanLiu92e/awesome-artificial-intelligence&type=Date)](https://star-history.com/#ChenyuanLiu92/awesome-artificial-intelligence&Date)
 
 ---
 
