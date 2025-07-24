@@ -19,13 +19,12 @@ A curated list of cutting-edge machine learning papers, focusing on the latest r
 ### 🌍 Large MultiModal Models (LMMs)
 
 #### Vision Language Models (VLM)
-- **Visual Instruction Tuning**  *(April 2023) &#160;&#160;[[Paper]](https://arxiv.org/abs/2304.08485) &#160; [[Code]](https://github.com/haotian-liu/LLaVA)
+- **GR-3 Technical Report**   *(July 2025) &#160;&#160;[[Paper]](https://arxiv.org/abs/2507.15493) &#160; [[Project]](https://seed.bytedance.com/zh/GR3)
 
 #### Vision Language Action Models (VLA)
 - **EgoVLA: Learning Vision-Language-Action Models from Egocentric Human Videos**   *(July 2025) &#160;&#160; [[Paper]](https://arxiv.org/abs/2507.12440) &#160;  [[Code]](https://rchalyang.github.io/EgoVLA/)
 
-
-
+- **EgoVLA: Learning Vision-Language-Action Models from Egocentric Human Videos**   *(July 2025) &#160;&#160; [[Paper]](https://arxiv.org/abs/2507.12440) &#160;  [[Code]](https://rchalyang.github.io/EgoVLA/)
 
 
 - **WorldVLA: Towards Autoregressive Action World Model** *(June 2025) &#160;&#160;[[Paper]](https://arxiv.org/abs/2506.21539) &#160; [[Code]](https://github.com/alibaba-damo-academy/WorldVLA)
