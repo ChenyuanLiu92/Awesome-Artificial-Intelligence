@@ -1,0 +1,249 @@
+[
+  {
+    "task_description": "Check and eat fresh apple",
+    "objects": [
+      {
+        "name": "apple",
+        "attributes": ["red", "round", "fresh", "tasty", "whole", "old"],
+        "affordances": ["eat", "hold", "slice"],
+        "logic_chain": "old = true → eat = false; whole = false → eat = false",
+        "emergency": "Old or damaged apple cannot be eaten"
+      }
+    ]
+  },
+  {
+    "task_description": "Operate digital watch",
+    "objects": [
+      {
+        "name": "apple_watch",
+        "attributes": ["portable", "digital", "small", "rectangular", "new", "electric"],
+        "affordances": ["wear", "operate", "charge", "watch", "type on"],
+        "logic_chain": "electric = false → operate = false; broken = true → wear = false",
+        "emergency": "Device without power cannot operate; broken watch cannot be worn"
+      }
+    ]
+  },
+  {
+    "task_description": "Turn on and watch monitor",
+    "objects": [
+      {
+        "name": "monitor",
+        "attributes": ["digital", "rectangular", "flat", "electric", "new", "black"],
+        "affordances": ["display", "operate", "watch", "turn on", "turn off"],
+        "logic_chain": "electric = false → operate = false; broken = true → display = false",
+        "emergency": "No power monitor cannot display; broken monitor unusable"
+      }
+    ]
+  },
+  {
+    "task_description": "Install and operate power socket",
+    "objects": [
+      {
+        "name": "power_socket",
+        "attributes": ["electric", "portable", "plastic", "rectangular", "new"],
+        "affordances": ["plug in", "supply power", "operate", "put"],
+        "logic_chain": "broken = true → supply power = false",
+        "emergency": "Damaged socket cannot supply power"
+      }
+    ]
+  },
+  {
+    "task_description": "Store and support test tubes in rack",
+    "objects": [
+      {
+        "name": "test_tube",
+        "attributes": ["glass", "cylindrical", "small", "empty", "clean"],
+        "affordances": ["hold", "fill", "pour out", "mix"],
+        "logic_chain": "broken = true → hold = false; messy = true → clean = false",
+        "emergency": "Broken test tube unusable; messy test tube affects experiment"
+      },
+      {
+        "name": "test_tube_rack",
+        "attributes": ["plastic", "rectangular", "stable", "light"],
+        "affordances": ["hold", "support", "store"],
+        "logic_chain": "broken = true → hold = false; unstable = true → support = false",
+        "emergency": "Broken or unstable rack cannot hold test tubes securely"
+      }
+    ]
+  },
+  {
+    "task_description": "Open backpack and carry items",
+    "objects": [
+      {
+        "name": "backpack",
+        "attributes": ["portable", "closed", "large", "cloth", "new"],
+        "affordances": ["carry", "store", "open", "close", "put"],
+        "logic_chain": "open = true → put = true; closed = false → put = false; broken = true → carry = false",
+        "emergency": "Broken backpack cannot carry or store items securely"
+      }
+    ]
+  },
+  {
+    "task_description": "Use canvas bag to carry and store items",
+    "objects": [
+      {
+        "name": "canvas_bag",
+        "attributes": ["portable", "open", "large", "cloth", "light"],
+        "affordances": ["carry", "put", "store", "hold"],
+        "logic_chain": "broken = true → carry = false; full = true → put = false",
+        "emergency": "Broken or full bag cannot carry more items"
+      }
+    ]
+  },
+  {
+    "task_description": "Carry groceries with plastic bag",
+    "objects": [
+      {
+        "name": "plastic_bag",
+        "attributes": ["plastic", "portable", "open", "light", "thin"],
+        "affordances": ["carry", "put", "store"],
+        "logic_chain": "broken = true → carry = false; full = true → put = false",
+        "emergency": "Torn or full plastic bag cannot carry items"
+      }
+    ]
+  },
+  {
+    "task_description": "Support laptop with computer stand",
+    "objects": [
+      {
+        "name": "computer_stand",
+        "attributes": ["metal", "portable", "stable", "rectangular", "new"],
+        "affordances": ["hold", "support", "adjust"],
+        "logic_chain": "broken = true → hold = false; unstable = true → support = false",
+        "emergency": "Broken or unstable stand may cause computer to fall"
+      }
+    ]
+  },
+  {
+    "task_description": "Use mug to drink coffee",
+    "objects": [
+      {
+        "name": "mug",
+        "attributes": ["ceramic", "open", "white", "round", "smooth"],
+        "affordances": ["hold", "drink", "fill", "pour out"],
+        "logic_chain": "open = false → fill = false; hot = true → hold = risky",
+        "emergency": "Closed mug cannot be filled; hot mug may cause burns"
+      }
+    ]
+  },
+  {
+    "task_description": "Use coffee cup and coaster to serve drink",
+    "objects": [
+      {
+        "name": "coffee_cup_and_coaster",
+        "attributes": ["ceramic", "open", "round", "smooth", "white", "portable"],
+        "affordances": ["hold", "drink", "put", "support"],
+        "logic_chain": "broken = true → hold = false; missing coaster → table may be damaged",
+        "emergency": "Broken cup unusable; no coaster may cause surface damage"
+      }
+    ]
+  },
+  {
+    "task_description": "Stir drink with stirring spoon",
+    "objects": [
+      {
+        "name": "stirring_spoon",
+        "attributes": ["metal", "long", "smooth", "portable"],
+        "affordances": ["stir", "hold", "mix"],
+        "logic_chain": "broken = true → stir = false",
+        "emergency": "Broken spoon cannot be used for stirring"
+      }
+    ]
+  },
+  {
+    "task_description": "Use tissue box to clean",
+    "objects": [
+      {
+        "name": "tissue_box",
+        "attributes": ["paper", "rectangular", "new", "stacked"],
+        "affordances": ["take out", "wipe", "clean"],
+        "logic_chain": "empty = true → take out = false",
+        "emergency": "Empty tissue box cannot provide tissues"
+      }
+    ]
+  },
+  {
+    "task_description": "Use wet wipes for cleaning",
+    "objects": [
+      {
+        "name": "wet_wipes",
+        "attributes": ["wet", "soft", "small", "portable"],
+        "affordances": ["wipe", "clean", "hold"],
+        "logic_chain": "dry = true → wipe = false",
+        "emergency": "Dry wipes lose cleaning ability"
+      }
+    ]
+  },
+  {
+    "task_description": "Cook food in small pot",
+    "objects": [
+      {
+        "name": "small_pot",
+        "attributes": ["metal", "round", "hot", "solid", "portable"],
+        "affordances": ["cook", "hold", "pour out", "heat"],
+        "logic_chain": "broken = true → cook = false; hot = true → hold = risky",
+        "emergency": "Broken pot unusable; hot pot unsafe to hold"
+      }
+    ]
+  },
+  {
+    "task_description": "Prepare and eat broccoli",
+    "objects": [
+      {
+        "name": "broccoli",
+        "attributes": ["green", "fresh", "natural", "whole", "tasty"],
+        "affordances": ["eat", "hold", "cut"],
+        "logic_chain": "old = true → eat = false",
+        "emergency": "Old broccoli cannot be eaten"
+      }
+    ]
+  },
+  {
+    "task_description": "Use mosquito repellent liquid",
+    "objects": [
+      {
+        "name": "mosquito_repellent_liquid",
+        "attributes": ["liquid", "chemical", "portable", "new"],
+        "affordances": ["spray", "protect", "use"],
+        "logic_chain": "empty = true → spray = false",
+        "emergency": "Empty repellent ineffective"
+      }
+    ]
+  },
+  {
+    "task_description": "Sit on chair",
+    "objects": [
+      {
+        "name": "chair",
+        "attributes": ["wooden", "solid", "flat", "standing", "smooth"],
+        "affordances": ["sit down", "stand up", "move"],
+        "logic_chain": "broken = true → sit down = false; wet = true → sit down = false",
+        "emergency": "Broken or wet chair unsafe to sit"
+      }
+    ]
+  },
+  {
+    "task_description": "Open umbrella and protect from rain",
+    "objects": [
+      {
+        "name": "umbrella",
+        "attributes": ["portable", "open", "wet", "folded", "light"],
+        "affordances": ["open", "close", "hold", "protect"],
+        "logic_chain": "broken = true → open = false; open = false → protect = false",
+        "emergency": "Broken umbrella cannot open; closed umbrella cannot protect"
+      }
+    ]
+  },
+  {
+    "task_description": "Use laptop for work",
+    "objects": [
+      {
+        "name": "laptop",
+        "attributes": ["digital", "portable", "electric", "rectangular", "new", "light"],
+        "affordances": ["operate", "type on", "watch", "write", "compute"],
+        "logic_chain": "electric = false → operate = false; broken = true → operate = false",
+        "emergency": "No power or broken laptop cannot operate"
+      }
+    ]
+  }
+]

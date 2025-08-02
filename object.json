@@ -1,0 +1,254 @@
+[
+  {
+    "name": "apple_watch",
+    "attributes": ["portable", "digital", "small", "rectangular", "new", "electric"],
+    "affordances": ["wear", "operate", "charge", "watch", "type on"],
+    "logic_chain": "electric = false → operate = false; broken = true → wear = false",
+    "emergency": "Device without power cannot operate; broken watch cannot be worn"
+  },
+  {
+    "name": "monitor",
+    "attributes": ["digital", "rectangular", "flat", "electric", "new", "black"],
+    "affordances": ["watch", "operate", "watch", "turn on", "turn off"],
+    "logic_chain": "electric = false → operate = false; broken = true → watch = false",
+    "emergency": "No power monitor cannot display; broken monitor unusable"
+  },
+  {
+    "name": "power_socket",
+    "attributes": ["electric", "portable", "plastic", "rectangular", "new"],
+    "affordances": ["install", "supply power", "operate"],
+    "logic_chain": "broken = true → supply power = false",
+    "emergency": "Damaged socket cannot supply power"
+  },
+  {
+    "name": "straw",
+    "attributes": ["plastic", "small", "long", "portable", "new"],
+    "affordances": ["drink", "insert", "hold"],
+    "logic_chain": "broken = true → drink = false; bent = true → insert = difficult",
+    "emergency": "Broken or bent straw unusable"
+  },
+  {
+    "name": "apple",
+    "attributes": ["red", "round", "fresh", "tasty", "whole"],
+    "affordances": ["eat", "hold", "slice"],
+    "logic_chain": "rotten = true → eat = false; whole = false → eat = false",
+    "emergency": "Rotten or damaged apple cannot be eaten"
+  },
+  {
+    "name": "sentence",
+    "attributes": ["digital", "abstract"],
+    "affordances": ["read", "edit", "write", "type on"],
+    "logic_chain": "missing words → read = incomplete",
+    "emergency": "Incomplete sentence causes misunderstanding"
+  },
+  {
+    "name": "glasses",
+    "attributes": ["small", "portable", "glass", "metal", "new"],
+    "affordances": ["wear", "hold", "wear", "let go"],
+    "logic_chain": "broken = true → wear = false; messy = true → see = impaired",
+    "emergency": "Broken glasses unusable; dirty glasses impair vision"
+  },
+  {
+    "name": "data_cable",
+    "attributes": ["plastic", "electric", "portable", "long", "portable"],
+    "affordances": ["install", "operate", "charge"],
+    "logic_chain": "broken = true → install = false; unplugged = true → operate = false",
+    "emergency": "Broken or unplugged cable cannot transfer data"
+  },
+  {
+    "name": "mug",
+    "attributes": ["ceramic", "open", "white", "round", "smooth"],
+    "affordances": ["hold", "drink", "fill", "pour out"],
+    "logic_chain": "open = false → fill = false; hot = true → hold = risky",
+    "emergency": "Closed mug cannot be filled; hot mug may cause burns"
+  },
+  {
+    "name": "coffee_cup_and_coaster",
+    "attributes": ["ceramic", "open", "round", "smooth", "white", "portable"],
+    "affordances": ["hold", "drink", "put", "support"],
+    "logic_chain": "broken = true → hold = false; missing coaster → table may be damaged",
+    "emergency": "Broken cup unusable; no coaster may cause surface damage"
+  },
+  {
+    "name": "stirring_spoon",
+    "attributes": ["metal", "long", "smooth", "portable"],
+    "affordances": ["stir", "hold", "stir"],
+    "logic_chain": "broken = true → stir = false",
+    "emergency": "Broken spoon cannot be used for stirring"
+  },
+  {
+    "name": "tissue_box",
+    "attributes": ["paper", "rectangular", "new"],
+    "affordances": ["take out", "wipe", "clean"],
+    "logic_chain": "empty = true → take out = false",
+    "emergency": "Empty tissue box cannot provide tissues"
+  },
+  {
+    "name": "wet_wipes",
+    "attributes": ["wet", "soft", "small", "portable"],
+    "affordances": ["wipe", "clean", "hold"],
+    "logic_chain": "dry = true → wipe = false",
+    "emergency": "Dry wipes lose cleaning ability"
+  },
+  {
+    "name": "small_pot",
+    "attributes": ["metal", "round", "hot", "solid", "portable"],
+    "affordances": ["cook", "hold", "pour out", "heat"],
+    "logic_chain": "broken = true → cook = false; hot = true → hold = risky",
+    "emergency": "Broken pot unusable; hot pot unsafe to hold"
+  },
+  {
+    "name": "broccoli",
+    "attributes": ["green", "fresh", "natural", "whole", "tasty"],
+    "affordances": ["eat", "hold", "cut"],
+    "logic_chain": "rotten = true → eat = false",
+    "emergency": "Rotten broccoli cannot be eaten"
+  },
+  {
+    "name": "mosquito_repellent_liquid",
+    "attributes": ["portable", "new"],
+    "affordances": ["use", "protect", "use"],
+    "logic_chain": "empty = true → use = false",
+    "emergency": "Empty repellent ineffective"
+  },
+  {
+    "name": "chair",
+    "attributes": ["wooden", "solid", "flat", "standing", "smooth"],
+    "affordances": ["sit down", "stand up", "move"],
+    "logic_chain": "broken = true → sit down = false; wet = true → sit down = false",
+    "emergency": "Broken or wet chair unsafe to sit"
+  },
+  {
+    "name": "umbrella",
+    "attributes": ["portable", "open", "folded", "light"],
+    "affordances": ["open", "close", "hold", "protect"],
+    "logic_chain": "broken = true → open = false; open = false → protect = false",
+    "emergency": "Broken umbrella cannot open; closed umbrella cannot protect"
+  },
+  {
+    "name": "laptop",
+    "attributes": ["digital", "portable", "electric", "rectangular", "new", "portable"],
+    "affordances": ["operate", "type on", "watch", "write", "operate"],
+    "logic_chain": "electric = false → operate = false; broken = true → operate = false",
+    "emergency": "No power or broken laptop cannot operate"
+  },
+  {
+    "name": "blocks",
+    "attributes": ["small", "solid", "wooden", "rectangular", "portable", "painted"],
+    "affordances": ["stack", "build", "hold", "move"],
+    "logic_chain": "broken = true → stack = false",
+    "emergency": "Broken blocks cannot be stacked"
+  },
+  {
+    "name": "book",
+    "attributes": ["paper", "rectangular", "flat", "new", "portable"],
+    "affordances": ["read", "write", "hold", "open", "close"],
+    "logic_chain": "torn = true → read = difficult",
+    "emergency": "Torn book reduces readability"
+  },
+  {
+    "name": "power_strip",
+    "attributes": ["electric", "portable", "plastic", "rectangular", "new"],
+    "affordances": ["install", "supply power", "operate"],
+    "logic_chain": "broken = true → supply power = false",
+    "emergency": "Damaged power strip cannot supply power"
+  },
+  {
+    "name": "clothes",
+    "attributes": ["soft", "portable", "colored", "new"],
+    "affordances": ["wear", "wear", "let go"],
+    "logic_chain": "messy = true → wear = false",
+    "emergency": "Dirty clothes cannot be worn"
+  },
+  {
+    "name": "sofa",
+    "attributes": ["soft", "large", "flat", "soft", "comfortable"],
+    "affordances": ["sit down", "lie down", "relax"],
+    "logic_chain": "broken = true → sit down = false; wet = true → sit down = false",
+    "emergency": "Broken or wet sofa unsafe to use"
+  },
+  {
+    "name": "broom",
+    "attributes": ["long", "wooden", "smooth", "dry", "portable"],
+    "affordances": ["sweep", "hold", "brush"],
+    "logic_chain": "wet = true → sweep = false; broken = true → sweep = false",
+    "emergency": "Wet or broken broom cannot sweep"
+  },
+  {
+    "name": "cabinet",
+    "attributes": ["wooden", "large", "closed", "solid", "rectangular"],
+    "affordances": ["store", "open", "close", "hold"],
+    "logic_chain": "broken = true → open = false; open = false → store = false",
+    "emergency": "Broken cabinet cannot open or store items"
+  },
+  {
+    "name": "drawer",
+    "attributes": ["wooden", "rectangular", "portable", "closed", "solid"],
+    "affordances": ["open", "close", "store", "hold"],
+    "logic_chain": "broken = true → open = false; open = false → store = false",
+    "emergency": "Broken drawer cannot open or store items"
+  },
+  {
+    "name": "box",
+    "attributes": ["rectangular", "portable", "closed", "empty", "plastic"],
+    "affordances": ["put", "store", "take out", "close"],
+    "logic_chain": "open = true → put = true; open = false → put = false; empty = true → put = true; full = true → put = false; broken = true → close = false",
+    "emergency": "Box closed or full, unable to put new items; broken box cannot be closed"
+  },
+  {
+    "name": "basket",
+    "attributes": ["portable", "open", "empty", "light"],
+    "affordances": ["put", "carry", "store"],
+    "logic_chain": "open = true → put = true; empty = true → put = true; full = true → put = false",
+    "emergency": "Basket full cannot put new items"
+  },
+  {
+    "name": "plastic_water_bottle",
+    "attributes": ["plastic", "portable", "closed", "empty", "portable"],
+    "affordances": ["hold", "drink", "fill", "put"],
+    "logic_chain": "closed = false → fill = true; empty = false → drink = false; broken = true → hold = false",
+    "emergency": "Broken or open bottle may leak; empty bottle cannot be drunk from"
+  },
+  {
+    "name": "test_tube",
+    "attributes": ["glass", "round", "small", "empty", "fresh"],
+    "affordances": ["hold", "fill", "pour out", "stir"],
+    "logic_chain": "broken = true → hold = false; messy = true → fresh = false",
+    "emergency": "Broken test tube unusable; messy test tube affects experiment"
+  },
+  {
+    "name": "test_tube_rack",
+    "attributes": ["plastic", "rectangular", "solid", "portable"],
+    "affordances": ["hold", "support", "store"],
+    "logic_chain": "broken = true → hold = false; unstable = true → support = false",
+    "emergency": "Broken or unstable rack cannot hold test tubes securely"
+  },
+  {
+    "name": "backpack",
+    "attributes": ["portable", "closed", "large", "cloth", "new"],
+    "affordances": ["carry", "store", "open", "close", "put"],
+    "logic_chain": "open = true → put = true; closed = false → put = false; broken = true → carry = false",
+    "emergency": "Broken backpack cannot carry or store items securely"
+  },
+  {
+    "name": "canvas_bag",
+    "attributes": ["portable", "open", "large", "cloth", "portable"],
+    "affordances": ["carry", "put", "store", "hold"],
+    "logic_chain": "broken = true → carry = false; full = true → put = false",
+    "emergency": "Broken or full bag cannot carry more items"
+  },
+  {
+    "name": "plastic_bag",
+    "attributes": ["plastic", "portable", "open", "portable", "thin"],
+    "affordances": ["carry", "put", "store"],
+    "logic_chain": "broken = true → carry = false; full = true → put = false",
+    "emergency": "Torn or full plastic bag cannot carry items"
+  },
+  {
+    "name": "computer_stand",
+    "attributes": ["metal", "portable", "solid", "rectangular", "new"],
+    "affordances": ["hold", "support", "adjust"],
+    "logic_chain": "broken = true → hold = false; unstable = true → support = false",
+    "emergency": "Broken or unstable stand may cause computer to fall"
+  }
+]

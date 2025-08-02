@@ -66,6 +66,10 @@ A curated list of cutting-edge artificial intelligence papers, focusing on the l
 
 - **Segment Anything**  *(April 2023) &#160;&#160;[[Paper]](https://arxiv.org/abs/2304.02643) &#160;&#160; [[Code]](https://github.com/facebookresearch/segment-anything)
 
+### 🧠 Causal Inference
+
+- **Efficient Causal Graph Discovery Using Large Language Models**  *(April 2023) &#160;&#160;[[Paper]](https://arxiv.org/abs/2402.01207) 
+
 ### 🔍 Natural Language Processing
 - Coming soon...
 

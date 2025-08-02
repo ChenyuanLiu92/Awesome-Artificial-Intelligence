@@ -1,0 +1,47 @@
+任务描述,Object name,Attribute,Affordance,紧急情况,Logic Chain
+擦洗窗户,窗户,metal,clean,窗户灰尘堆积,根据窗户属性metal，进行清洁操作
+开关空调,空调,metal,switch off,空调长时间未关闭,根据空调属性metal，关闭空调
+修理电脑,电脑,metal,repair,电脑无法开机,根据电脑属性metal，进行修理
+清洁冰箱,冰箱,metal,clean,冰箱内部脏乱,根据冰箱属性metal，进行清洁操作
+整理书架,书架,wooden,clean,书架杂乱,根据书架属性wooden，整理书架
+移动车子,车,parked,move,车阻塞道路,根据车的parked状态，移动车辆
+修理水管,水管,metal,repair,水管漏水,根据水管属性metal，进行修理操作
+更换电池,电池,metal,replace,电池电量耗尽,根据电池属性metal，进行更换操作
+整理衣橱,衣橱,wooden,clean,衣橱凌乱,根据衣橱属性wooden，进行整理
+清理窗帘,窗帘,cloth,clean,窗帘积尘,根据窗帘属性cloth，进行清洁
+安装软件,电脑,digital,install,电脑缺少必要软件,根据电脑属性digital，进行软件安装
+修剪花草,植物,green,trim,植物生长过快,根据植物属性green，进行修剪操作
+为孩子准备早餐,食物,cooked,prepare,孩子饿了,根据食物属性cooked，准备早餐
+清洁汽车内饰,车,metal,clean,汽车内部脏乱,根据车属性metal，进行内饰清洁
+搬运重物,重物,metal,move,重物阻塞通道,根据重物属性metal，搬运重物
+去超市购物,购物车,metal,carry,食物或日用品不足,根据购物车属性metal，推购物车
+做清洁,清洁工具,plastic,clean,房间脏乱,根据清洁工具属性plastic，进行清洁
+移动家具,沙发,soft,move,沙发阻塞道路,根据沙发属性soft，进行搬动
+卸载软件,电脑,digital,uninstall,软件占用太多存储,根据电脑属性digital，卸载不必要的软件
+修复电视,电视,digital,repair,电视无法启动,根据电视属性digital，进行修理
+喂宠物,宠物,furry,feed,宠物饥饿,根据宠物属性furry，进行喂食
+收拾餐具,餐具,ceramic,clean,餐具未清洗,根据餐具属性ceramic，进行清洁
+摆放花瓶,花瓶,ceramic,place,花瓶未安置,根据花瓶属性ceramic，将花瓶放置
+更换灯泡,灯泡,glass,replace,灯泡坏了,根据灯泡属性glass，进行更换操作
+捡起物品,物品,small,pick,物品掉落,根据物品属性small，捡起物品
+擦拭桌面,桌子,wooden,clean,桌面脏乱,根据桌子属性wooden，擦拭桌面
+搬动箱子,箱子,wooden,move,箱子阻塞路径,根据箱子属性wooden，进行搬动
+更换车轮,车轮,metal,replace,车轮坏掉,根据车轮属性metal，进行更换操作
+修剪草坪,草坪,green,trim,草坪生长过快,根据草坪属性green，进行修剪
+开门,门,wooden,open,门无法打开,门属性wooden，开门
+播放音乐,音响,metal,operate,无,音响属性metal，播放音乐
+切割食材,刀,metal,cut,刀刃钝,刀属性metal，切割食材
+调整椅子高度,椅子,adjustable,adjust,椅子不稳,椅子属性adjustable，调整高度
+打开窗户,窗户,metal,open,空气不流通,窗户属性metal，进行打开操作
+观看电视,电视,digital,watch,电视无法启动,电视属性digital，播放节目
+拍摄照片,相机,metal,photograph,电池没电,相机属性metal，进行拍照
+关上灯,灯,metal,switch off,灯未关闭,灯属性metal，关闭灯光
+给植物浇水,植物,green,water,植物干枯,植物属性green，进行浇水
+开启空调,空调,metal,turn on,室内温度过高,空调属性metal，开启空调
+骑车,自行车,metal,ride vehicle,自行车爆胎,自行车属性metal，骑行
+搬动沙发,沙发,soft,move,沙发占用空间,沙发属性soft，进行搬动
+开门,门,wooden,open,门无法打开,门属性wooden，开门
+拧开瓶盖,瓶盖,metal,open,瓶盖紧闭,瓶盖属性metal，拧开瓶盖
+清扫地板,地板,wooden,sweep,地板脏乱,地板属性wooden，进行清扫
+做饭,炉子,metal,cook,炉子故障,炉子属性metal，进行烹饪
+提升座椅背,椅子,adjustable,adjust,座椅背不合适,椅子属性adjustable，调节座椅背
